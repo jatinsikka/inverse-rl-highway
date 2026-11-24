@@ -20,7 +20,7 @@ class SFMConfig:
     update_frequency: int = 50  # Decreased from 100 for more frequent updates
     
     # Paths
-    model_dir: str = 'models'
+    model_dir: str = 'checkpoints'
     data_dir: str = 'data'
     expert_demos_file: str = 'human_expert_demos_20250426_191310.npz'
 

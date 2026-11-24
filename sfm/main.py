@@ -1,21 +1,7 @@
-# Inverse Reinforcement Learning for Autonomous Vehicles
-# A comprehensive implementation using Highway-Env
+"""Successor Feature Matching (SFM) on highway-env: learn to drive from expert demonstrations without a reward.
 
-# Find out the reward funcition based on the extracted date and the training and map it (Plot it)
-# IRL
-# Be clear with the concepts and how they are different IRL/imitation learning
-# You can also just compare coding results 
-# look into the extreacted feature code and see the dimension of the system i/O
-
-# **** Present 40 - 45 min, lecture based 
-# 1. Basic Concepts and notation (Fundamental conccepts should be completely elaborated) 
-# 2. Applications 
-# 3. What project I coded
-
-
-# How does other people handle multi car input 
-# How does spam classification work? Do they have some method handling different input systems (dimentions)? 
-
+Run from this folder: python main.py  (expert demos in data/, checkpoints and plots go to checkpoints/).
+"""
 
 import numpy as np
 import torch
